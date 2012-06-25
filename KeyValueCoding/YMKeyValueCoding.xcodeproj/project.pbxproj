@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE78E131593924C00A3C428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE78E121593924C00A3C428 /* UIKit.framework */; };
+		2FE78E151593924C00A3C428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE78E141593924C00A3C428 /* Foundation.framework */; };
+		2FE78E171593924C00A3C428 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE78E161593924C00A3C428 /* CoreGraphics.framework */; };
+		2FE78E1D1593924C00A3C428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FE78E1B1593924C00A3C428 /* InfoPlist.strings */; };
+		2FE78E1F1593924C00A3C428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE78E1E1593924C00A3C428 /* main.m */; };
+		2FE78E231593924C00A3C428 /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE78E221593924C00A3C428 /* YMAppDelegate.m */; };
+		2FE78E2B1593924C00A3C428 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE78E2A1593924C00A3C428 /* SenTestingKit.framework */; };
+		2FE78E2C1593924C00A3C428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE78E121593924C00A3C428 /* UIKit.framework */; };
+		2FE78E2D1593924C00A3C428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE78E141593924C00A3C428 /* Foundation.framework */; };
+		2FE78E351593924C00A3C428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FE78E331593924C00A3C428 /* InfoPlist.strings */; };
+		2FE78E381593924C00A3C428 /* YMKeyValueCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE78E371593924C00A3C428 /* YMKeyValueCodingTests.m */; };
+		2FE78E431593926A00A3C428 /* YMSampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE78E421593926A00A3C428 /* YMSampleObject.m */; };
+		2FE78E441593926A00A3C428 /* YMSampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE78E421593926A00A3C428 /* YMSampleObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE78E2E1593924C00A3C428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FE78E051593924C00A3C428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE78E0D1593924C00A3C428;
+			remoteInfo = YMKeyValueCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FE78E0E1593924C00A3C428 /* YMKeyValueCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMKeyValueCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE78E121593924C00A3C428 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FE78E141593924C00A3C428 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FE78E161593924C00A3C428 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FE78E1A1593924C00A3C428 /* YMKeyValueCoding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMKeyValueCoding-Info.plist"; sourceTree = "<group>"; };
+		2FE78E1C1593924C00A3C428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FE78E1E1593924C00A3C428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FE78E201593924C00A3C428 /* YMKeyValueCoding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMKeyValueCoding-Prefix.pch"; sourceTree = "<group>"; };
+		2FE78E211593924C00A3C428 /* YMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
+		2FE78E221593924C00A3C428 /* YMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
+		2FE78E291593924C00A3C428 /* YMKeyValueCodingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMKeyValueCodingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE78E2A1593924C00A3C428 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2FE78E321593924C00A3C428 /* YMKeyValueCodingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YMKeyValueCodingTests-Info.plist"; sourceTree = "<group>"; };
+		2FE78E341593924C00A3C428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FE78E361593924C00A3C428 /* YMKeyValueCodingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMKeyValueCodingTests.h; sourceTree = "<group>"; };
+		2FE78E371593924C00A3C428 /* YMKeyValueCodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMKeyValueCodingTests.m; sourceTree = "<group>"; };
+		2FE78E411593926A00A3C428 /* YMSampleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSampleObject.h; sourceTree = "<group>"; };
+		2FE78E421593926A00A3C428 /* YMSampleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSampleObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE78E0B1593924C00A3C428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE78E131593924C00A3C428 /* UIKit.framework in Frameworks */,
+				2FE78E151593924C00A3C428 /* Foundation.framework in Frameworks */,
+				2FE78E171593924C00A3C428 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE78E251593924C00A3C428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE78E2B1593924C00A3C428 /* SenTestingKit.framework in Frameworks */,
+				2FE78E2C1593924C00A3C428 /* UIKit.framework in Frameworks */,
+				2FE78E2D1593924C00A3C428 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE78E031593924C00A3C428 = {
+			isa = PBXGroup;
+			children = (
+				2FE78E181593924C00A3C428 /* YMKeyValueCoding */,
+				2FE78E301593924C00A3C428 /* YMKeyValueCodingTests */,
+				2FE78E111593924C00A3C428 /* Frameworks */,
+				2FE78E0F1593924C00A3C428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE78E0F1593924C00A3C428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE78E0E1593924C00A3C428 /* YMKeyValueCoding.app */,
+				2FE78E291593924C00A3C428 /* YMKeyValueCodingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE78E111593924C00A3C428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE78E121593924C00A3C428 /* UIKit.framework */,
+				2FE78E141593924C00A3C428 /* Foundation.framework */,
+				2FE78E161593924C00A3C428 /* CoreGraphics.framework */,
+				2FE78E2A1593924C00A3C428 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FE78E181593924C00A3C428 /* YMKeyValueCoding */ = {
+			isa = PBXGroup;
+			children = (
+				2FE78E211593924C00A3C428 /* YMAppDelegate.h */,
+				2FE78E221593924C00A3C428 /* YMAppDelegate.m */,
+				2FE78E411593926A00A3C428 /* YMSampleObject.h */,
+				2FE78E421593926A00A3C428 /* YMSampleObject.m */,
+				2FE78E191593924C00A3C428 /* Supporting Files */,
+			);
+			path = YMKeyValueCoding;
+			sourceTree = "<group>";
+		};
+		2FE78E191593924C00A3C428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE78E1A1593924C00A3C428 /* YMKeyValueCoding-Info.plist */,
+				2FE78E1B1593924C00A3C428 /* InfoPlist.strings */,
+				2FE78E1E1593924C00A3C428 /* main.m */,
+				2FE78E201593924C00A3C428 /* YMKeyValueCoding-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE78E301593924C00A3C428 /* YMKeyValueCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE78E361593924C00A3C428 /* YMKeyValueCodingTests.h */,
+				2FE78E371593924C00A3C428 /* YMKeyValueCodingTests.m */,
+				2FE78E311593924C00A3C428 /* Supporting Files */,
+			);
+			path = YMKeyValueCodingTests;
+			sourceTree = "<group>";
+		};
+		2FE78E311593924C00A3C428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE78E321593924C00A3C428 /* YMKeyValueCodingTests-Info.plist */,
+				2FE78E331593924C00A3C428 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE78E0D1593924C00A3C428 /* YMKeyValueCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE78E3B1593924C00A3C428 /* Build configuration list for PBXNativeTarget "YMKeyValueCoding" */;
+			buildPhases = (
+				2FE78E0A1593924C00A3C428 /* Sources */,
+				2FE78E0B1593924C00A3C428 /* Frameworks */,
+				2FE78E0C1593924C00A3C428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMKeyValueCoding;
+			productName = YMKeyValueCoding;
+			productReference = 2FE78E0E1593924C00A3C428 /* YMKeyValueCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FE78E281593924C00A3C428 /* YMKeyValueCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE78E3E1593924C00A3C428 /* Build configuration list for PBXNativeTarget "YMKeyValueCodingTests" */;
+			buildPhases = (
+				2FE78E241593924C00A3C428 /* Sources */,
+				2FE78E251593924C00A3C428 /* Frameworks */,
+				2FE78E261593924C00A3C428 /* Resources */,
+				2FE78E271593924C00A3C428 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FE78E2F1593924C00A3C428 /* PBXTargetDependency */,
+			);
+			name = YMKeyValueCodingTests;
+			productName = YMKeyValueCodingTests;
+			productReference = 2FE78E291593924C00A3C428 /* YMKeyValueCodingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE78E051593924C00A3C428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2FE78E081593924C00A3C428 /* Build configuration list for PBXProject "YMKeyValueCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FE78E031593924C00A3C428;
+			productRefGroup = 2FE78E0F1593924C00A3C428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE78E0D1593924C00A3C428 /* YMKeyValueCoding */,
+				2FE78E281593924C00A3C428 /* YMKeyValueCodingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE78E0C1593924C00A3C428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE78E1D1593924C00A3C428 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE78E261593924C00A3C428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE78E351593924C00A3C428 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FE78E271593924C00A3C428 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE78E0A1593924C00A3C428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE78E1F1593924C00A3C428 /* main.m in Sources */,
+				2FE78E231593924C00A3C428 /* YMAppDelegate.m in Sources */,
+				2FE78E431593926A00A3C428 /* YMSampleObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE78E241593924C00A3C428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE78E381593924C00A3C428 /* YMKeyValueCodingTests.m in Sources */,
+				2FE78E441593926A00A3C428 /* YMSampleObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FE78E2F1593924C00A3C428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FE78E0D1593924C00A3C428 /* YMKeyValueCoding */;
+			targetProxy = 2FE78E2E1593924C00A3C428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FE78E1B1593924C00A3C428 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE78E1C1593924C00A3C428 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FE78E331593924C00A3C428 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE78E341593924C00A3C428 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FE78E391593924C00A3C428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FE78E3A1593924C00A3C428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE78E3C1593924C00A3C428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMKeyValueCoding/YMKeyValueCoding-Prefix.pch";
+				INFOPLIST_FILE = "YMKeyValueCoding/YMKeyValueCoding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FE78E3D1593924C00A3C428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMKeyValueCoding/YMKeyValueCoding-Prefix.pch";
+				INFOPLIST_FILE = "YMKeyValueCoding/YMKeyValueCoding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FE78E3F1593924C00A3C428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YMKeyValueCoding.app/YMKeyValueCoding";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMKeyValueCoding/YMKeyValueCoding-Prefix.pch";
+				INFOPLIST_FILE = "YMKeyValueCodingTests/YMKeyValueCodingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2FE78E401593924C00A3C428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YMKeyValueCoding.app/YMKeyValueCoding";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YMKeyValueCoding/YMKeyValueCoding-Prefix.pch";
+				INFOPLIST_FILE = "YMKeyValueCodingTests/YMKeyValueCodingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE78E081593924C00A3C428 /* Build configuration list for PBXProject "YMKeyValueCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE78E391593924C00A3C428 /* Debug */,
+				2FE78E3A1593924C00A3C428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE78E3B1593924C00A3C428 /* Build configuration list for PBXNativeTarget "YMKeyValueCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE78E3C1593924C00A3C428 /* Debug */,
+				2FE78E3D1593924C00A3C428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE78E3E1593924C00A3C428 /* Build configuration list for PBXNativeTarget "YMKeyValueCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE78E3F1593924C00A3C428 /* Debug */,
+				2FE78E401593924C00A3C428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE78E051593924C00A3C428 /* Project object */;
+}
