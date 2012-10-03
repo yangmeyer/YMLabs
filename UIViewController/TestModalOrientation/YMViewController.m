@@ -12,7 +12,11 @@
 
 - (IBAction)unwindPresentModal:(UIStoryboardSegue *)segue
 {
-	[self dismissViewControllerAnimated:YES completion:nil];
+	if (self.presentedViewController) {
+		[self dismissViewControllerAnimated:YES completion:nil];
+	} else {
+		[self.navigationController popToViewController:self animated:YES];
+	}
 }
 
 @end
