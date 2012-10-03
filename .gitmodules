@@ -1,0 +1,3 @@
+[submodule "Submodules/MKUIKitAdditions"]
+	path = Submodules/MKUIKitAdditions
+	url = https://github.com/MugunthKumar/UIKitCategoryAdditions
